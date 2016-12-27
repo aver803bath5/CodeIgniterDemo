@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit("DON'T");
 
 echo "<a href='Management/AddUser' class='btn btn-success'>新增</a>";
-
+echo "<a href='Logout' class='btn btn-danger'>登出</a>";
 $this->table->set_template(array(
 	'table_open' => "<table class='table'>"
 ));
